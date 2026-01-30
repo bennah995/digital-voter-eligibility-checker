@@ -8,7 +8,7 @@ This tool automates the decision-making process for election officials by evalua
 The script uses conditional logic to evaluate the variables.
 
 ## 🧠 Logic Breakdown
-The program checks the following truth table to determine the output:
+![The code](Script-picture.png)
 
 
 ### Technical Requirements
