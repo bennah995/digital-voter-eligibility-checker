@@ -8,7 +8,8 @@ This tool automates the decision-making process for election officials by evalua
 The script uses conditional logic to evaluate the variables.
 
 ## 🧠 Logic Breakdown
-![The code](Script-picture.png)
+<!-- ![The code](Script-picture.png) -->
+<img src="./Script-picture.png" width="400">
 
 
 ### Technical Requirements
