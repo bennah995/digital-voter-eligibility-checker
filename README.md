@@ -1,19 +1,46 @@
-Assignment: The Digital Voter Eligibility Checker
-Objective
-Create a JavaScript program that determines if a person is allowed to participate in a national election based on two specific criteria: Age and Nationality.
+# Digital Voter Eligibility Checker
+A streamlined JavaScript program that validates voter eligibility by checking age and citizenship status.
 
-The Requirements
-Your program should store two pieces of information in variables:
+## 📋 Project Overview
+This tool automates the decision-making process for election officials by evaluating two key criteria. It ensures that only those who meet the legal threshold are cleared to vote.
 
-age (a number)
+## 💻 The Code
+The script uses conditional logic to evaluate the variables.
 
-isCitizen (a boolean: true or false)
+## 🧠 Logic Breakdown
+The program checks the following truth table to determine the output:
 
-The Logic
-A person is eligible to vote only if:
 
-They are 18 years old or older.
+### Technical Requirements
+JavaScript Variables: Using let for flexible data storage.Comparison Operators: Checking if $age \ge 18$.Logical Operators: Using && to ensure both conditions are true.
 
-AND they are a citizen of the country (isCitizen is true).
+## 🛠️ How to Test
+### 🚀 Getting Started
+Follow these steps to run the project on your local machine:
 
-If they meet both requirements, print: "You are eligible to vote!" If they do not meet one or both requirements, print: "You are not eligible to vote."
+- Clone the Repository
+Open your terminal or command prompt and run:
+
+>git clone https://github.com/bennah995/digital-voter-eligibility-checker.git
+
+- Open the Project: 
+Navigate into the project folder and open index.html in any modern web browser (Chrome, Firefox, Edge, etc.).
+
+- View the Result: 
+Since this script runs in the background, you'll need to check the developer tools:
+
+- Right-click anywhere on the page and select Inspect.
+
+- Click on the Console tab to see the eligibility message.
+
+
+## 🛠️ Customization
+- To test different scenarios (e.g., changing Benard's age or citizenship status):
+- Open the script.js file in your code editor.
+- Modify the age or isCitizen variables:
+
+
+> let age = 15; // Change this number
+>let isCitizen = true; // Change to false to test non-citizens
+
+- Save the file and refresh your browser page to see the new result in the console.
